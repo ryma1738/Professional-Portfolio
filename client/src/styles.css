@@ -1,0 +1,270 @@
+:root {
+    --primaryText: rgb(225, 244, 251);
+    --background: #212529;
+    --backgroundMain: #43454D;
+    --teal: #006C67;
+    --silver: #80858D;
+}
+
+body {
+    color: var(--primaryText);
+    background-color: var(--backgroundMain);
+    font-family: "Montserrat", sans-serif;
+}
+
+.mmd {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.gradient-bg {
+    background: linear-gradient(var(--teal), var(--backgroundMain));
+}
+
+.nav-brand {
+    font-size: 1.8em;
+}
+
+.about-title {
+    text-align: left;
+}
+
+.about-head {
+    border-bottom: 3px solid var(--background);
+    text-shadow: 1px 1px 3px black ;
+}
+
+.about-list {
+    font-size: 1.4em;
+}
+
+.img-ryan {
+    width: 75%;
+    background: radial-gradient(closest-side, var(--background) 25%, transparent);
+}
+.icon-links {
+    transition: 0.3s;
+    color: var(--primaryText);
+}
+
+.icon-links:visited {
+    text-decoration: none;
+    color: var(--primaryText);
+}
+
+.icon-links:hover {
+    color: var(--teal);
+}
+
+.git-button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.slideshow {
+    max-width: 100%;
+}
+
+.bg-slide {
+    box-shadow: 1px 1px 3px black;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.form-div {
+    border-radius: 10px;
+    margin-top: 50px; 
+    color: var(--primaryText);
+}
+
+.form-modal .modal-content {
+    background: var(--background);
+}
+
+.form-input {
+    border-radius: 5px;
+    background: var(--silver);
+}
+
+.form-input:enabled {
+    border: 2px solid rgba(0, 108, 103, .5);
+    background: var(--silver);
+    outline:none;
+}
+
+.form-input:focus {
+    border: 4px solid rgba(0, 108, 103, .5);
+    background: var(--primaryText);
+    outline:none;
+}
+
+.check-mark {
+    color: var(--teal);
+}
+
+.form-button {
+    border: 2px solid var(--backgroundMain);
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    color: var(--teal);
+    font-weight: bold;
+}
+
+.form-button:hover {
+    font-weight: bolder;
+    border: 4px solid var(--backgroundMain);
+}
+
+.form-button:active {
+    border: 4px solid var(--silver);
+}
+
+.form-button:disabled,
+.form-button:disabled:hover,
+.form-button:disabled:active {
+    color: var(--silver);
+    border: 2px solid var(--backgroundMain);
+}
+
+.form-header {
+    color: var(--primaryText);
+}
+
+.contact-icons {
+    background: var(--background);
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px black;
+}
+
+.contact-border {
+    border-right: 3px solid var(--background);
+}
+
+#emailValid .tooltip-inner {
+    background: var(--teal);
+}
+
+#emailValid .tooltip-arrow {
+    display: none;
+}
+
+.resume-heads {
+    border-bottom: 2px solid var(--background);
+    text-shadow: 2px 2px 5px var(--background);
+}
+
+.resume-border {
+    border-top: 3px solid var(--background);
+}
+
+#resume-download {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--teal);
+    background: var(--background);
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+#resume-download:hover {
+    background: var(--silver);
+    box-shadow: 0 0 10px var(--background), 0 0 30px var(--background), 0 0 40px var(--background);
+    transition-delay: 1s;
+}
+
+#resume-download span {
+    position: absolute;
+    display: block;
+}
+
+#resume-download span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--silver));
+}
+
+#resume-download:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+#resume-download span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent, var(--silver));
+}
+
+#resume-download:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#resume-download span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, var(--silver));
+}
+
+#resume-download:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#resume-download span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, var(--silver));
+}
+
+#resume-download:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 630px) {
+    .nav-brand {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-title {
+        text-align: center;
+    }
+
+    .ck {
+        margin-top: 5em;
+    }
+
+    .bg-slide {
+        width: 100%
+    }
+
+    .contact-border {
+        border-right: none;
+    }
+
+    .contact-sm {
+        display: flex;
+        justify-content: center;
+    }
+}
