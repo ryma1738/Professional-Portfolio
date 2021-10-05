@@ -3,7 +3,8 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import carbon_watchers from './assets/carbon_watchers.JPG';
 import techBlog from './assets/techBlog.JPG';
 import robot from './assets/robotGladiators.JPG';
-import ryma from './assets/ryma1738.JPG';
+import stickleBricks from './assets/sticklebricks.JPG'
+//import ryma from './assets/ryma1738.JPG';
 import carbon_watchers2 from './assets/carbon_watchers2.JPG';
 import budget_tracker from './assets/budget_tracker.JPG';
 
@@ -15,31 +16,31 @@ function Portfolio() {
             description: 'This site was created as a way to help spread awareness about climate change. This is a personal project created by me, as a way to put climate change into perspective in ways that most people never see. This site was created at the end of my collage boot camp course and is a website I intend to publish on AWS.',
             src: carbon_watchers2, git: 'https://github.com/ryma1738/Carbon_Watchers-2.0', deployed: 'https://carbonwatchers2.herokuapp.com/'
         },
+        {
+            id: 1, title: 'StickleBricks', tech: 'REST express.js api backend, react, mongoose/mongodb, axios, and more',
+            description: 'This is a full stack e-commerce site, created as my final group project for my coding boot camp. I was in charge of the backend / linking the backend and frontend of this site. This site shows off my ability to create a quality e-commerce backend api / site. We were only given 2 weeks to complete this project as a result some features in the backend are not present in the frontend.',
+            src: stickleBricks, git: 'https://github.com/ryma1738/robot-gladiators', deployed: 'https://sticklebricks.herokuapp.com/'
+        },
         { 
-            id: 1, title: 'Tech Blog', tech: 'mySql Express.js, Handlebars.js', 
+            id: 2, title: 'Tech Blog', tech: 'mySql Express.js, Handlebars.js', 
             description: 'This project is designed to show my ability to use sql, sequelize, express, and handlebars.js all together. This website allows the user to log in and create, comment and edit / delete posts. As well anyone can view the posts but they can not do much more until they log in. (Not mobile ready yet)',
             src: techBlog, git: 'https://github.com/ryma1738/tech-blog', deployed: 'https://techblogschoolproject.herokuapp.com/' 
         },
         { 
-             id: 2, title: 'Budget Tracker', tech: 'PWA, express.js, MongoDB', 
+             id: 3, title: 'Budget Tracker', tech: 'PWA, express.js, MongoDB', 
             description: "This project was designed to show my knowledge of PWA's This application will still works offline and can be downloaded to a moble app.",
             src: budget_tracker, git: 'https://github.com/ryma1738/budget-tracker', deployed: 'https://budget-tracker-school-project.herokuapp.com/'
         },
         {
-            id: 3, title: 'Carbon Watchers', tech: 'mySQL, Express.js, Bcrypt, dotENV, Axios',
+            id: 4, title: 'Carbon Watchers', tech: 'mySQL, Express.js, Bcrypt, dotENV, Axios',
             description: 'This was a group project for my coding boot camp involving 2 other people. We included a secure user login and sign up functionality as well as using sessions to persist user data. We used mySql/sequelize to store user data in a database as well as their own personal Carbon Emissions. On this site users can get real numbers on their own carbon emissions from source like driving their own car, an airplane flight, or shipping a package to their home.',
             src: carbon_watchers, git: 'https://github.com/ryma1738/Carbon_Watchers', deployed: 'https://carbonwatchers.herokuapp.com/'
         },
-        { 
-            id: 4, title: 'Robot Gladiators', tech: 'Javascript', 
-            description: 'This is a simple game I created that uses the DOM alert as an input for the player. It has multiple bosses and despite being simple requires real strategy to beat it. This application is simple but it shows my skills with problem solving in javascript.', 
-            src: robot, git: 'https://github.com/ryma1738/robot-gladiators', deployed: 'https://ryma1738.github.io/robot-gladiators/' 
-        },
-        {
-            id: 5, title: 'Ryma1738', tech: 'In Progress',
-            description: 'This is a website showing off my online alias and different things that I do including: Gaming, Graphic Design, Web Development, and Game Programing / Modding.',
-            src: ryma, git: 'https://github.com/ryma1738/My-Website', deployed: 'https://ryma1738.github.io/My-Website/'
-        }
+        // {
+        //     id: 5, title: 'Ryma1738', tech: 'In Progress',
+        //     description: 'This is a website showing off my online alias and different things that I do including: Gaming, Graphic Design, Web Development, and Game Programing / Modding.',
+        //     src: ryma, git: 'https://github.com/ryma1738/My-Website', deployed: 'https://ryma1738.github.io/My-Website/'
+        // },
         // { 
         //      id: 6, title: 'Project 3', tech: 'MERN Stack', 
         //      description: '', 

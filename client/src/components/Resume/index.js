@@ -100,21 +100,15 @@ function Resume() {
                         </div>
                         <ul style={{ 'listStyle': 'none' }}>
                             <li>
-                                Ryma1738 website
-                                <ul>
-                                    <li>React Front End Application</li>
-                                </ul>
-                            </li>
-                            <li>
                                 Carbon Watchers
                                 <ul>
                                     <li>Full ERN Stack App</li>
                                 </ul>
                             </li>
                             <li>
-                                Project 3
+                                StickleBricks
                                 <ul>
-                                    <li>Full MERN Stack App</li>
+                                    <li>Full MERN Stack E-Commerce App</li>
                                 </ul>
                             </li>
                             <li>

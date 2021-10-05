@@ -5,13 +5,13 @@ import ryan from './assets/Profile.png';
 function About() {
     const terms = ['Novice', 'Capable', 'Proficient', 'Effective', 'Expert']
     const aboutList = [
-        {title: 'HTML/CSS', now: 95, id: 1, term: terms[4]},
-        {title: 'Bootstrap', now: 90, id: 3, term: terms[3]},
-        {title: 'Javascript', now: 88, id: 4, term: terms[3]},
-        {title: 'expressJS', now: 80, id: 5, term: terms[3]},
-        {title: 'React', now: 70, id: 6, term: terms[2]},
-        {title: 'SQL', now: 70, id: 7, term: terms[2]},
-        {title: 'MongoDB / Mongoose', now: 60, id: 8, term: terms[2]},
+        {title: 'Bootstrap', now: 98, id: 3, term: terms[4]},
+        {title: 'Javascript', now: 95, id: 4, term: terms[3]},
+        { title: 'HTML/CSS', now: 90, id: 1, term: terms[4] },
+        {title: 'expressJS', now: 89, id: 5, term: terms[3]},
+        { title: 'MongoDB / Mongoose', now: 85, id: 6, term: terms[3] },
+        {title: 'React', now: 80, id: 7, term: terms[2]},
+        {title: 'SQL', now: 70, id: 8, term: terms[2]},
         {title: 'Python', now: 30, id: 9, term: terms[0]}
     ];
 
@@ -32,12 +32,24 @@ function About() {
     <Row>
         <Col sm={12} md={6}>
             <div>
+                <h3 className="mmd about-head text-center pb-2">About Me</h3>
+                <p className="text-center py-2" style={{'fontSize': '1.4em'}}>
+                   I am a full stack web developer working in the MERN / SERN stack. I earned a 
+                   certificate in Full Stack Web Development from the University of Utah Coding Boot Camp. 
+                   I am confident in my abilities to create full stack production web applications using the skills 
+                   I have learned, and I am equally confident in my ability to learn new skills. I am a natural problem solver, 
+                   creative thinker, leader, team player, have great attention to detail and I have very high standards when it 
+                   come to the quality of my code.
+                </p>
+            </div>
+            <div>
                 <h3 className="mmd about-head text-center pb-2">hobbies and interests</h3>
                 <p className="text-center py-2" style={{'fontSize': '1.4em'}}>
                     My favorite thing to do in my free time is play video games with my friends. 
                     I also enjoy cars / car meets. My car is a Toyota 86 2017 and am working towards 
-                    a super charger. I'm currently working towards improving my programming skills to the
-                    point that I can create my own video games.</p>
+                    a super charger. I'm currently working towards improving my programming skills over 
+                    all, and hope to create my own video games in the future.
+                </p>
             </div>
         </Col>
         <Col sm={12} md={6} className="ck">
