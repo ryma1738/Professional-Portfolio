@@ -55,7 +55,7 @@ function Portfolio() {
     };
 
     return (
-<Container fluid="xl" style={{'height': '90vh'}}>
+<Container fluid="xl" style={{'minHeight': '90vh'}}>
     <Row>
         <div>
             <Carousel className="mt-4" activeIndex={index} onSelect={handleSelect} style={{'border': '5px solid var(--background)'}}>
@@ -77,7 +77,7 @@ function Portfolio() {
         </div>
     </Row>
     <Row>
-        <div className="py-4">
+        <div className="pt-4 mb-5">
             {websites.map((item) => (
                 <div className={`${index === item.id ? 'd-block' : 'd-none'} bg-dark py-1 px-3`} 
                 id={'slide' + item.id} 
