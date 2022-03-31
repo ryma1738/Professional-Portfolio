@@ -5,14 +5,16 @@ import ryan from './assets/Profile.png';
 function About() {
     const terms = ['Novice', 'Capable', 'Proficient', 'Effective', 'Expert']
     const aboutList = [
-        {title: 'Bootstrap', now: 98, id: 3, term: terms[4]},
-        {title: 'Javascript', now: 95, id: 4, term: terms[3]},
-        { title: 'HTML/CSS', now: 90, id: 1, term: terms[4] },
-        {title: 'expressJS', now: 89, id: 5, term: terms[3]},
-        { title: 'MongoDB / Mongoose', now: 85, id: 6, term: terms[3] },
-        {title: 'React', now: 80, id: 7, term: terms[2]},
-        {title: 'SQL', now: 70, id: 8, term: terms[2]},
-        {title: 'Python', now: 30, id: 9, term: terms[0]}
+        {title: 'Bootstrap', now: 100, id: 3, term: terms[4]},
+        {title: 'Javascript', now: 98, id: 4, term: terms[4]},
+        { title: 'HTML/CSS', now: 95, id: 1, term: terms[4] },
+        { title: 'MongoDB / Mongoose', now: 92, id: 6, term: terms[3] },
+        { title: 'React', now: 90, id: 7, term: terms[3] },
+        {title: 'expressJS', now: 90, id: 5, term: terms[3]},
+        { title: 'Java Development', now: 85, id: 9, term: terms[3] },
+        { title: 'Spring Boot', now: 83, id: 9, term: terms[2] },
+        {title: 'SQL', now: 75, id: 8, term: terms[2]},
+        
     ];
 
     return (
@@ -34,8 +36,8 @@ function About() {
             <div>
                 <h3 className="mmd about-head text-center pb-2">About Me</h3>
                 <p className="text-center py-2" style={{'fontSize': '1.4em'}}>
-                   I am a full stack web developer working in the MERN / SERN stack. I earned a 
-                   certificate in Full Stack Web Development from the University of Utah Coding Boot Camp. 
+                   I am a full stack web developer with knowledge in MERN full stack development and Java full stack development.
+                   I earned a certificate in Full Stack Web Development from the University of Utah Coding Boot Camp. 
                    I am confident in my abilities to create full stack production web applications using the skills 
                    I have learned, and I am equally confident in my ability to learn new skills. I am a natural problem solver, 
                    creative thinker, leader, team player, have great attention to detail and I have very high standards when it 

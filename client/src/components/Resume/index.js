@@ -50,15 +50,9 @@ function Resume() {
                             <li>REST Api's</li>
                             <li>SQL</li>
                             <li>NoSQL / MongoDB</li>
-                            <li>GraphQL</li>
                             <li>Python</li>
-                            <li>Adobe:
-                                <ul>
-                                    <li>Illustrator</li>
-                                    <li>LightRoom</li>
-                                    <li>Photoshop</li>
-                                </ul>
-                            </li>
+                            <li>Java</li>
+                            <li>Spring Boot</li>
                         </ul>
                     </div>
                 </Col>
@@ -114,6 +108,11 @@ function Resume() {
                             <li>
                                 Work Experience:
                                 <ul>
+                                    <li>Genspark Full Stack Java Developer
+                                        <ul>
+                                            <li>3 Months</li>
+                                        </ul>
+                                    </li>
                                     <li>Appointment Scheduler
                                         <ul>
                                             <li>8 Months</li>
@@ -122,11 +121,6 @@ function Resume() {
                                     <li>Security Officer
                                         <ul>
                                             <li>2 Years</li>
-                                        </ul>
-                                    </li>
-                                    <li>Walmart Associate
-                                        <ul>
-                                            <li>3 Years</li>
                                         </ul>
                                     </li>
                                 </ul>
